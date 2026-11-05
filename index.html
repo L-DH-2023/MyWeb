@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <!-- 移动端必须写，否则手机会按桌面宽度缩放，页面看起来很小 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的网站</title>
+  <!-- 搜索引擎和微信/推特分享卡片会读这段描述 -->
+  <meta name="description" content="用一句话介绍你的网站。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ============ 导航栏 ============ -->
+  <header class="site-header">
+    <a class="logo" href="index.html">我的网站</a>
+    <nav class="site-nav">
+      <!-- class="active" 用来高亮当前页；加新页面时复制一行改 href 即可 -->
+      <a class="active" href="index.html">首页</a>
+      <a href="about.html">关于</a>
+      <a href="works.html">作品</a>
+    </nav>
+  </header>
+
+  <!-- ============ 主体内容 ============ -->
+  <main>
+    <section class="hero">
+      <h1 class="reveal">你好，世界</h1>
+      <p class="reveal">这是一张空白页。内容写在 index.html，样式写在 css/style.css，交互写在 js/main.js。</p>
+      <a class="btn reveal" href="about.html">了解我</a>
+    </section>
+
+    <!-- 在这里继续加 <section>，每个 section 就是页面上的一块 -->
+  </main>
+
+  <!-- ============ 页脚 ============ -->
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> 我的网站</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
